@@ -1,0 +1,1344 @@
+fileFormatVersion: 2
+guid: 2864fda2be6acd14b80c5dcd6ee52949
+timeCreated: 1497350550
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: OUTLINE1_Man_NoBorders_0
+    21300002: OUTLINE1_Man_NoBorders_1
+    21300004: OUTLINE1_Man_NoBorders_2
+    21300006: OUTLINE1_Man_NoBorders_3
+    21300008: OUTLINE1_Man_NoBorders_4
+    21300010: OUTLINE1_Man_NoBorders_5
+    21300012: OUTLINE1_Man_NoBorders_6
+    21300014: OUTLINE1_Man_NoBorders_7
+    21300016: OUTLINE1_Man_NoBorders_8
+    21300018: OUTLINE1_Man_NoBorders_9
+    21300020: OUTLINE1_Man_NoBorders_10
+    21300022: OUTLINE1_Man_NoBorders_11
+    21300024: OUTLINE1_Man_NoBorders_12
+    21300026: OUTLINE1_Man_NoBorders_13
+    21300028: OUTLINE1_Man_NoBorders_14
+    21300030: OUTLINE1_Man_NoBorders_15
+    21300032: OUTLINE1_Man_NoBorders_16
+    21300034: OUTLINE1_Man_NoBorders_17
+    21300036: OUTLINE1_Man_NoBorders_18
+    21300038: OUTLINE1_Man_NoBorders_19
+    21300040: OUTLINE1_Man_NoBorders_20
+    21300042: OUTLINE1_Man_NoBorders_21
+    21300044: OUTLINE1_Man_NoBorders_22
+    21300046: OUTLINE1_Man_NoBorders_23
+    21300048: OUTLINE1_Man_NoBorders_24
+    21300050: OUTLINE1_Man_NoBorders_25
+    21300052: OUTLINE1_Man_NoBorders_26
+    21300054: OUTLINE1_Man_NoBorders_27
+    21300056: OUTLINE1_Man_NoBorders_28
+    21300058: OUTLINE1_Man_NoBorders_29
+    21300060: OUTLINE1_Man_NoBorders_30
+    21300062: OUTLINE1_Man_NoBorders_31
+    21300064: OUTLINE1_Man_NoBorders_32
+    21300066: OUTLINE1_Man_NoBorders_33
+    21300068: OUTLINE1_Man_NoBorders_34
+    21300070: OUTLINE1_Man_NoBorders_35
+    21300072: OUTLINE1_Man_NoBorders_36
+    21300074: OUTLINE1_Man_NoBorders_37
+    21300076: OUTLINE1_Man_NoBorders_38
+    21300078: OUTLINE1_Man_NoBorders_39
+    21300080: OUTLINE1_Man_NoBorders_40
+    21300082: OUTLINE1_Man_NoBorders_41
+    21300084: OUTLINE1_Man_NoBorders_42
+    21300086: OUTLINE1_Man_NoBorders_43
+    21300088: OUTLINE1_Man_NoBorders_44
+    21300090: OUTLINE1_Man_NoBorders_45
+    21300092: OUTLINE1_Man_NoBorders_46
+    21300094: OUTLINE1_Man_NoBorders_47
+    21300096: OUTLINE1_Man_NoBorders_48
+    21300098: OUTLINE1_Man_NoBorders_49
+    21300100: OUTLINE1_Man_NoBorders_50
+    21300102: OUTLINE1_Man_NoBorders_51
+    21300104: OUTLINE1_Man_NoBorders_52
+    21300106: OUTLINE1_Man_NoBorders_53
+    21300108: OUTLINE1_Man_NoBorders_54
+    21300110: OUTLINE1_Man_NoBorders_55
+    21300112: OUTLINE1_Man_NoBorders_56
+    21300114: OUTLINE1_Man_NoBorders_57
+    21300116: OUTLINE1_Man_NoBorders_58
+    21300118: OUTLINE1_Man_NoBorders_59
+    21300120: OUTLINE1_Man_NoBorders_60
+    21300122: OUTLINE1_Man_NoBorders_61
+    21300124: OUTLINE1_Man_NoBorders_62
+    21300126: OUTLINE1_Man_NoBorders_63
+    21300128: OUTLINE1_Man_NoBorders_64
+    21300130: OUTLINE1_Man_NoBorders_65
+    21300132: OUTLINE1_Man_NoBorders_66
+    21300134: OUTLINE1_Man_NoBorders_67
+    21300136: OUTLINE1_Man_NoBorders_68
+    21300138: OUTLINE1_Man_NoBorders_69
+    21300140: OUTLINE1_Man_NoBorders_70
+    21300142: OUTLINE1_Man_NoBorders_71
+    21300144: OUTLINE1_Man_NoBorders_72
+    21300146: OUTLINE1_Man_NoBorders_73
+    21300148: OUTLINE1_Man_NoBorders_74
+    21300150: OUTLINE1_Man_NoBorders_75
+    21300152: OUTLINE1_Man_NoBorders_76
+    21300154: OUTLINE1_Man_NoBorders_77
+    21300156: OUTLINE1_Man_NoBorders_78
+    21300158: OUTLINE1_Man_NoBorders_79
+    21300160: OUTLINE1_Man_NoBorders_80
+    21300162: OUTLINE1_Man_NoBorders_81
+    21300164: OUTLINE1_Man_NoBorders_82
+    21300166: OUTLINE1_Man_NoBorders_83
+    21300168: OUTLINE1_Man_NoBorders_84
+    21300170: OUTLINE1_Man_NoBorders_85
+    21300172: OUTLINE1_Man_NoBorders_86
+    21300174: OUTLINE1_Man_NoBorders_87
+    21300176: OUTLINE1_Man_NoBorders_88
+    21300178: OUTLINE1_Man_NoBorders_89
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_4
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_5
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_6
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_7
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_8
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_9
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_12
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_13
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_16
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_17
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_18
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_19
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_24
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_25
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_26
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_27
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_28
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_29
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_32
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_33
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_34
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_35
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_36
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_37
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_38
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_39
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2000
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_42
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_44
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_45
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_46
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_47
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_48
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_49
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1600
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_51
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_52
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_53
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_54
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_55
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_56
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_57
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_58
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_59
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1200
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_62
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_63
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_64
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_65
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_66
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_67
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_68
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_69
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 800
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_71
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_72
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_73
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_74
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_75
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_76
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_77
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_78
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 400
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_81
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_82
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_83
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_84
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_85
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_86
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_87
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_88
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OUTLINE1_Man_NoBorders_89
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 350
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
