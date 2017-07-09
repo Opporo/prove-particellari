@@ -1,0 +1,1344 @@
+fileFormatVersion: 2
+guid: f681050ffedab1147886a199b500f263
+timeCreated: 1499436981
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Outline_NoBorders_0
+    21300002: Outline_NoBorders_1
+    21300004: Outline_NoBorders_2
+    21300006: Outline_NoBorders_3
+    21300008: Outline_NoBorders_4
+    21300010: Outline_NoBorders_5
+    21300012: Outline_NoBorders_6
+    21300014: Outline_NoBorders_7
+    21300016: Outline_NoBorders_8
+    21300018: Outline_NoBorders_9
+    21300020: Outline_NoBorders_10
+    21300022: Outline_NoBorders_11
+    21300024: Outline_NoBorders_12
+    21300026: Outline_NoBorders_13
+    21300028: Outline_NoBorders_14
+    21300030: Outline_NoBorders_15
+    21300032: Outline_NoBorders_16
+    21300034: Outline_NoBorders_17
+    21300036: Outline_NoBorders_18
+    21300038: Outline_NoBorders_19
+    21300040: Outline_NoBorders_20
+    21300042: Outline_NoBorders_21
+    21300044: Outline_NoBorders_22
+    21300046: Outline_NoBorders_23
+    21300048: Outline_NoBorders_24
+    21300050: Outline_NoBorders_25
+    21300052: Outline_NoBorders_26
+    21300054: Outline_NoBorders_27
+    21300056: Outline_NoBorders_28
+    21300058: Outline_NoBorders_29
+    21300060: Outline_NoBorders_30
+    21300062: Outline_NoBorders_31
+    21300064: Outline_NoBorders_32
+    21300066: Outline_NoBorders_33
+    21300068: Outline_NoBorders_34
+    21300070: Outline_NoBorders_35
+    21300072: Outline_NoBorders_36
+    21300074: Outline_NoBorders_37
+    21300076: Outline_NoBorders_38
+    21300078: Outline_NoBorders_39
+    21300080: Outline_NoBorders_40
+    21300082: Outline_NoBorders_41
+    21300084: Outline_NoBorders_42
+    21300086: Outline_NoBorders_43
+    21300088: Outline_NoBorders_44
+    21300090: Outline_NoBorders_45
+    21300092: Outline_NoBorders_46
+    21300094: Outline_NoBorders_47
+    21300096: Outline_NoBorders_48
+    21300098: Outline_NoBorders_49
+    21300100: Outline_NoBorders_50
+    21300102: Outline_NoBorders_51
+    21300104: Outline_NoBorders_52
+    21300106: Outline_NoBorders_53
+    21300108: Outline_NoBorders_54
+    21300110: Outline_NoBorders_55
+    21300112: Outline_NoBorders_56
+    21300114: Outline_NoBorders_57
+    21300116: Outline_NoBorders_58
+    21300118: Outline_NoBorders_59
+    21300120: Outline_NoBorders_60
+    21300122: Outline_NoBorders_61
+    21300124: Outline_NoBorders_62
+    21300126: Outline_NoBorders_63
+    21300128: Outline_NoBorders_64
+    21300130: Outline_NoBorders_65
+    21300132: Outline_NoBorders_66
+    21300134: Outline_NoBorders_67
+    21300136: Outline_NoBorders_68
+    21300138: Outline_NoBorders_69
+    21300140: Outline_NoBorders_70
+    21300142: Outline_NoBorders_71
+    21300144: Outline_NoBorders_72
+    21300146: Outline_NoBorders_73
+    21300148: Outline_NoBorders_74
+    21300150: Outline_NoBorders_75
+    21300152: Outline_NoBorders_76
+    21300154: Outline_NoBorders_77
+    21300156: Outline_NoBorders_78
+    21300158: Outline_NoBorders_79
+    21300160: Outline_NoBorders_80
+    21300162: Outline_NoBorders_81
+    21300164: Outline_NoBorders_82
+    21300166: Outline_NoBorders_83
+    21300168: Outline_NoBorders_84
+    21300170: Outline_NoBorders_85
+    21300172: Outline_NoBorders_86
+    21300174: Outline_NoBorders_87
+    21300176: Outline_NoBorders_88
+    21300178: Outline_NoBorders_89
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Outline_NoBorders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_4
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_5
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_6
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_7
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_8
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_9
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1816
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_13
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_14
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_15
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_16
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_17
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_18
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_19
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1589
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_23
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_24
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_25
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_26
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_27
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_29
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1362
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_33
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_34
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_35
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_36
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_37
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_38
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_39
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1135
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_41
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_43
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_44
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_45
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_46
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_47
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_48
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_49
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 908
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_51
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_52
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_53
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_54
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_55
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_56
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_57
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_58
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_59
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 681
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_61
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_62
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_63
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_64
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_65
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_66
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_67
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_68
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_69
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 454
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_71
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_72
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_73
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_74
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_75
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_76
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_77
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_78
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_79
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 227
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_81
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_82
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_83
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_84
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_85
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_86
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_87
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_88
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Outline_NoBorders_89
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 0
+        width: 199
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
