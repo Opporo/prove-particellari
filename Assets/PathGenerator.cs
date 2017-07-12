@@ -7,20 +7,20 @@ public class PathGenerator : MonoBehaviour {
 
     private Transform[] points;
     public Transform[] allPoints;
-    public Transform[] selectedPoints;
-    public Transform[] pointsPool;
-    private Transform[] pointsToMove;
-
-    public Vector3[] firstPath;
-    public Vector3[] secondPath;
+    public Transform[] selectedPoints; //TODO questo dovrà diventare un enum
 
     public PathType pathType;
 
     [Range(-50,50f)]
     public float curvature;
 
-    [Range(1, 4)]
+    [Range(1,4)]
     public int iterations;
+
+    [SerializeField]
+    private Vector3[] firstPath;
+    [SerializeField]
+    private Vector3[] secondPath;
 
     void OnValidate()
     {
@@ -33,8 +33,6 @@ public class PathGenerator : MonoBehaviour {
         {
             allPoints[i-1] = points[i];
         }
-
-        CheckPointDebug();
     }
 
     void OnDrawGizmos()
@@ -43,11 +41,14 @@ public class PathGenerator : MonoBehaviour {
         switch (pathType)
         {
                 case PathType.SimpleCurve:
-                iTween.DrawPath(selectedPoints);
+                DrawCurvePath();
+                iTween.DrawPath(firstPath);
                 break;
 
                 case PathType.Helix:
-                iTween.DrawPath(EvaluateHelixIterations());
+                DrawHelixPath();
+                iTween.DrawPath(firstPath);
+                iTween.DrawPath(secondPath);
                 break;
 
             default:
@@ -56,9 +57,32 @@ public class PathGenerator : MonoBehaviour {
         }
     }
 
-    #region Simple Curve
-    void GenerateInterpolationPoints(Transform _pointToMove, Transform _pointA, Transform _pointB)
+    public void GeneratePath(Transform _pointA, Transform _pointB, PathType _pathType, Vector3[] _firstPath, Vector3[] _secondPath = null, float _curvature = 5.0f, int _iterations = 2)
     {
+        if (_pathType == PathType.SimpleCurve)
+        {
+            GenerateInterpolationPoint(_pointA, _pointB, _curvature);
+            _firstPath = firstPath;
+        }
+        else if (_pathType == PathType.Helix)
+        {
+            GenerateInterpolationPoints(_pointA, _pointB, _curvature, _iterations);
+            _firstPath = firstPath;
+            _secondPath = secondPath;
+        }
+    }
+
+    #region Simple Curve
+
+    void DrawCurvePath()
+    {
+        GenerateInterpolationPoint(selectedPoints[0], selectedPoints[1], curvature);
+    }
+
+    void GenerateInterpolationPoint(Transform _pointA, Transform _pointB, float _curvature)
+    {
+        firstPath = new Vector3[3];
+
         Vector3 posOne = _pointA.position;
         Vector3 posTwo = _pointB.position;
 
@@ -72,87 +96,88 @@ public class PathGenerator : MonoBehaviour {
         Vector3 midPoint = (posOne + posTwo) / 2f;
 
         //get the offset point
-        Vector3 offsetPoint = midPoint + (perpDir * curvature);
+        Vector3 offsetPoint = midPoint + (perpDir * _curvature);
 
-        _pointToMove.position = offsetPoint;
+        firstPath[0] = posOne;
+        firstPath[1] = offsetPoint;
+        firstPath[2] = posTwo;
     }
     #endregion
 
     #region Helix
-    private Vector3[] EvaluateHelixIterations()
+
+    private void DrawHelixPath()
     {
-        //qua devo controllare quanti giri far fare all'elica
-        //devo ritornare un int
-        iterations = 2;
-        pointsToMove = new Transform[iterations * 2];
-
-        //fetch transforms from the pool
-        for (int i = 0; i < iterations * 2; i++)
-        {
-            pointsToMove[i] = pointsPool[i];
-        }
-
-        firstPath = GenerateInterpolationPoints(iterations, selectedPoints[0], selectedPoints[2]);
-        return firstPath;
+        GenerateInterpolationPoints(selectedPoints[0], selectedPoints[1], curvature, iterations);
     }
 
-    private Vector3[] GenerateInterpolationPoints(int _numberOfIterations, Transform _pointA, Transform _pointB)
+    private int EvaluateHelixIterations(Vector3 _pointA, Vector3 _pointB)
     {
-        firstPath = new Vector3[_numberOfIterations + 2];
+        //TODO qua devo controllare quanti giri far fare all'elica
+        //devo ritornare un int
+        return iterations;
+    }
+
+    private void GenerateInterpolationPoints(Transform _pointA, Transform _pointB, float _curvature, int _iterations)
+    {
         Vector3 posOne = _pointA.position;
         Vector3 posTwo = _pointB.position;
 
+        //int numberOfIterations = EvaluateHelixIterations(posOne, posTwo);
+        int numberOfIterations = _iterations;
+
+        Vector3[] midPoints = new Vector3[numberOfIterations];
+
+        firstPath = new Vector3[midPoints.Length + 2];
+        secondPath = new Vector3[midPoints.Length + 2];
+        
         //get the direction between the two positions
         Vector3 dir = (posTwo - posOne).normalized;
 
         //get the direction that crosses our "dir" direction
         Vector3 perpDir = Vector3.Cross(dir, Vector3.forward);
 
-        //get the middle points
-        
-        Vector3 midPoint = (posOne + posTwo) / 2f;
-        Vector3[] midPoints = new Vector3[_numberOfIterations];
+        //GET THE MIDDLE POINTS
+        //calculate distance between start and end
+        float xDist = Mathf.Abs(posOne.x - posTwo.x);
+        float yDist = Mathf.Abs(posOne.y - posTwo.y);
+
         int index = 0;
-        for (int i = 0; i < _numberOfIterations * 2; i += 2)
+        for (int i = 0; i < numberOfIterations * 2; i += 2)
         {
-            Vector3 interPoint = ((posOne + posTwo) / _numberOfIterations*2) * (i+1); //TODO il problema è proprio qua
-            midPoints[index] = interPoint;
+            float newPosX = (posOne.x + (xDist / (numberOfIterations * 2)) * (i + 1));
+            float newPosY = (posOne.y + (yDist / (numberOfIterations * 2)) * (i + 1));
+
+            midPoints[index] = new Vector3(newPosX, newPosY, posOne.z); //TODO qua posso impostare l'offset sulla z
+
             index++;
         }
 
-        //offet the points for the first path
-        float curv = curvature;
+        //offset the points for the first path
+        float curv = _curvature;
         for (int i = 0; i < midPoints.Length; i++)
         {
-            Vector2 offsetPoint = midPoints[i] + (perpDir * curv);
-            firstPath[i+1] = new Vector3(offsetPoint.x, offsetPoint.y, _pointA.position.z);
-            //curv *= -1;
+            Vector3 offsetPoint = midPoints[i] + (perpDir * curv);
+            firstPath[i + 1] = offsetPoint;
+            curv *= -1;
         }
 
-        firstPath[0] = _pointA.position;
-        firstPath[3] = _pointB.position;
-        return firstPath;
+        //offset the points for the second path
+        curv = -_curvature;
+        for (int i = 0; i < midPoints.Length; i++)
+        {
+            Vector3 offsetPoint = midPoints[i] + (perpDir * curv);
+            secondPath[i + 1] = offsetPoint;
+            curv *= -1;
+        }
+
+        firstPath[0] = posOne;
+        firstPath[midPoints.Length + 1] = posTwo;
+
+        secondPath[0] = posOne;
+        secondPath[midPoints.Length + 1] = posTwo;
     }
     #endregion
-
-    void CheckPointDebug()
-    {
-        switch (pathType)
-        {
-            case PathType.SimpleCurve:
-                GenerateInterpolationPoints(selectedPoints[1], selectedPoints[0], selectedPoints[2]);
-                break;
-
-            case PathType.Helix:
-                //do something
-                break;
-
-            default:
-                break;
-        }
-        
-    }
-
 }
 
 public enum PathType
@@ -160,4 +185,9 @@ public enum PathType
     SimpleCurve,
     Helix,
     Curl
+}
+
+public enum HotSpots
+{
+    
 }
