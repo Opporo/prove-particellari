@@ -5,6 +5,7 @@ using System;
 
 public class PathGenerator : MonoBehaviour {
 
+    public bool update;
     private Transform[] points;
     public Transform[] allPoints;
     public Transform[] selectedPoints; //TODO questo dovrà diventare un enum
