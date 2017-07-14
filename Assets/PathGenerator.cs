@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 public class PathGenerator : MonoBehaviour {
 
     public bool update;
-    private Transform[] points;
-    public Transform[] allPoints;
+    private Transform[] pointsIncludingParent;
+    public Vector3[] allPoints;
     public Transform[] selectedPoints; //TODO questo dovrà diventare un enum
+
+    public HotSpot[] hotSpots;
 
     public PathType pathType;
 
@@ -25,14 +28,16 @@ public class PathGenerator : MonoBehaviour {
 
     void OnValidate()
     {
-        //fetch all transforms
-        points = GetComponentsInChildren<Transform>();
+        pointsIncludingParent = GetComponentsInChildren<Transform>();
 
-        //remove first transform (parent object)
-        allPoints = new Transform[points.Length - 1];
-        for (int i = 1; i < points.Length; i++)
+        //remove first transform (parent object) and save positions
+        allPoints = new Vector3[pointsIncludingParent.Length - 1];
+        hotSpots = new HotSpot[pointsIncludingParent.Length - 1];
+        for (int i = 1; i < pointsIncludingParent.Length; i++)
         {
-            allPoints[i-1] = points[i];
+           allPoints[i-1] = pointsIncludingParent[i].position;
+           hotSpots[i - 1] = pointsIncludingParent[i].gameObject.GetComponent<HotSpot>();
+           hotSpots[i - 1].myPosition = allPoints[i - 1];
         }
     }
 
@@ -58,34 +63,49 @@ public class PathGenerator : MonoBehaviour {
         }
     }
 
-    public void GeneratePath(Transform _pointA, Transform _pointB, PathType _pathType, Vector3[] _firstPath, Vector3[] _secondPath = null, float _curvature = 5.0f, int _iterations = 2)
+    #region Path Generator
+
+    //Generate a SimpleCurve path
+    public void GeneratePath(HotSpots _pointA, HotSpots _pointB, PathType _pathType, Vector3[] _firstPath,
+        float _curvature)
     {
-        if (_pathType == PathType.SimpleCurve)
-        {
-            GenerateInterpolationPoint(_pointA, _pointB, _curvature);
-            _firstPath = firstPath;
-        }
-        else if (_pathType == PathType.Helix)
-        {
-            GenerateInterpolationPoints(_pointA, _pointB, _curvature, _iterations);
-            _firstPath = firstPath;
-            _secondPath = secondPath;
-        }
+        GenerateInterpolationPoint(GetHotspotTransform(_pointA), GetHotspotTransform(_pointB), _curvature);
+        _firstPath = new Vector3[firstPath.Length];
+        firstPath.CopyTo(_firstPath, 0);
+    }
+
+    //Generate a Helix Path
+    public void GeneratePath(HotSpots _pointA, HotSpots _pointB, PathType _pathType, Vector3[] _firstPath, Vector3[] _secondPath,
+    float _curvature, int _iterations)
+    {
+        GenerateInterpolationPoints(GetHotspotTransform(_pointA), GetHotspotTransform(_pointB), _curvature, iterations);
+
+        _firstPath = new Vector3[firstPath.Length];
+        firstPath.CopyTo(_firstPath, 0);
+
+        secondPath = new Vector3[secondPath.Length];
+        secondPath.CopyTo(_secondPath, 0);
+    }
+#endregion
+
+    Vector3 GetHotspotTransform(HotSpots _hs)
+    {
+        return Array.Find(hotSpots, x => x.hotspotName == _hs).myPosition;
     }
 
     #region Simple Curve
 
     void DrawCurvePath()
     {
-        GenerateInterpolationPoint(selectedPoints[0], selectedPoints[1], curvature);
+        GenerateInterpolationPoint(selectedPoints[0].position, selectedPoints[1].position, curvature);
     }
 
-    void GenerateInterpolationPoint(Transform _pointA, Transform _pointB, float _curvature)
+    void GenerateInterpolationPoint(Vector3 _pointA, Vector3 _pointB, float _curvature)
     {
         firstPath = new Vector3[3];
 
-        Vector3 posOne = _pointA.position;
-        Vector3 posTwo = _pointB.position;
+        Vector3 posOne = _pointA;
+        Vector3 posTwo = _pointB;
 
         //get the direction between the two positions
         Vector3 dir = (posTwo - posOne).normalized;
@@ -109,7 +129,7 @@ public class PathGenerator : MonoBehaviour {
 
     private void DrawHelixPath()
     {
-        GenerateInterpolationPoints(selectedPoints[0], selectedPoints[1], curvature, iterations);
+        GenerateInterpolationPoints(selectedPoints[0].position, selectedPoints[1].position, curvature, iterations);
     }
 
     private int EvaluateHelixIterations(Vector3 _pointA, Vector3 _pointB)
@@ -119,10 +139,10 @@ public class PathGenerator : MonoBehaviour {
         return iterations;
     }
 
-    private void GenerateInterpolationPoints(Transform _pointA, Transform _pointB, float _curvature, int _iterations)
+    private void GenerateInterpolationPoints(Vector3 _pointA, Vector3 _pointB, float _curvature, int _iterations)
     {
-        Vector3 posOne = _pointA.position;
-        Vector3 posTwo = _pointB.position;
+        Vector3 posOne = _pointA;
+        Vector3 posTwo = _pointB;
 
         //int numberOfIterations = EvaluateHelixIterations(posOne, posTwo);
         int numberOfIterations = _iterations;
@@ -188,7 +208,29 @@ public enum PathType
     Curl
 }
 
+
+
 public enum HotSpots
 {
-    
+    Player_Defense,
+    Player_Health,
+    Player_Stamina,
+    Player_Mana,
+    Player_Gold,
+    Player_Marker_Poison,
+    Player_Marker_Burn,
+    Player_Marker_Ice,
+    Player_Marker_Invulnerability,
+    Player_Exp,
+    Player_Card_Back,
+    Player_Card_1_Top_Left_Icon,
+    Player_Card_1_Top_Right_Icon,
+    Player_Card_1_Top_Center_Icon,
+    Player_Card_1_Center,
+    Player_Card_1_Bottom_Left_Icon,
+    Player_Card_1_Bottom_Right_Icon,
+    Player_Card_1_Bottom_Center_Icon,
+    //per player card 2 e 3
+    Enemy_1_Defense,
+    Enemy_1_Center
 }
