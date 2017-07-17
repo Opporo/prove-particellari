@@ -65,30 +65,33 @@ public class PathGenerator : MonoBehaviour {
 
     #region Path Generator
 
-    //Generate a SimpleCurve path
-    public void GeneratePath(HotSpots _pointA, HotSpots _pointB, PathType _pathType, Vector3[] _firstPath,
-        float _curvature)
+    public List<Vector3[]> GeneratePath(HotSpots _pointA, HotSpots _pointB, PathClass _pathType)
     {
-        GenerateInterpolationPoint(GetHotspotTransform(_pointA), GetHotspotTransform(_pointB), _curvature);
-        _firstPath = new Vector3[firstPath.Length];
-        firstPath.CopyTo(_firstPath, 0);
-    }
+        Vector3 pointA = GetHotspotPosition(_pointA);
+        Vector3 pointB = GetHotspotPosition(_pointB);
+        Debug.Log(pointA + " - " + pointB);
 
-    //Generate a Helix Path
-    public void GeneratePath(HotSpots _pointA, HotSpots _pointB, PathType _pathType, Vector3[] _firstPath, Vector3[] _secondPath,
-    float _curvature, int _iterations)
-    {
-        GenerateInterpolationPoints(GetHotspotTransform(_pointA), GetHotspotTransform(_pointB), _curvature, iterations);
+        if (_pathType is SimpleCurve)
+        {
+            SimpleCurve pathFound = (SimpleCurve)_pathType;
+            GenerateSimpleCurve(pointA, pointB, pathFound.curvature);
+            List<Vector3[]> pointsList = new List<Vector3[]> {firstPath};
+            Debug.Log(firstPath[0] + " - " +firstPath[1] + " - " + firstPath[2]);
+            return pointsList;
+        }
+        else if (_pathType is Helix)
+        {
+            Helix pathFound = (Helix) _pathType;
+            GenerateHelix(pointA, pointB, pathFound.curvature, pathFound.iterations);
+            List<Vector3[]> pointsList = new List<Vector3[]> {firstPath, secondPath};
+            return pointsList;
+        }
+        else return null;
 
-        _firstPath = new Vector3[firstPath.Length];
-        firstPath.CopyTo(_firstPath, 0);
-
-        secondPath = new Vector3[secondPath.Length];
-        secondPath.CopyTo(_secondPath, 0);
     }
 #endregion
 
-    Vector3 GetHotspotTransform(HotSpots _hs)
+    Vector3 GetHotspotPosition(HotSpots _hs)
     {
         return Array.Find(hotSpots, x => x.hotspotName == _hs).myPosition;
     }
@@ -97,10 +100,10 @@ public class PathGenerator : MonoBehaviour {
 
     void DrawCurvePath()
     {
-        GenerateInterpolationPoint(selectedPoints[0].position, selectedPoints[1].position, curvature);
+        GenerateSimpleCurve(selectedPoints[0].position, selectedPoints[1].position, curvature);
     }
 
-    void GenerateInterpolationPoint(Vector3 _pointA, Vector3 _pointB, float _curvature)
+    void GenerateSimpleCurve(Vector3 _pointA, Vector3 _pointB, float _curvature)
     {
         firstPath = new Vector3[3];
 
@@ -122,6 +125,8 @@ public class PathGenerator : MonoBehaviour {
         firstPath[0] = posOne;
         firstPath[1] = offsetPoint;
         firstPath[2] = posTwo;
+
+        Debug.Log(firstPath[1] + " - " + firstPath[2]);
     }
     #endregion
 
@@ -129,7 +134,7 @@ public class PathGenerator : MonoBehaviour {
 
     private void DrawHelixPath()
     {
-        GenerateInterpolationPoints(selectedPoints[0].position, selectedPoints[1].position, curvature, iterations);
+        GenerateHelix(selectedPoints[0].position, selectedPoints[1].position, curvature, iterations);
     }
 
     private int EvaluateHelixIterations(Vector3 _pointA, Vector3 _pointB)
@@ -139,7 +144,7 @@ public class PathGenerator : MonoBehaviour {
         return iterations;
     }
 
-    private void GenerateInterpolationPoints(Vector3 _pointA, Vector3 _pointB, float _curvature, int _iterations)
+    private void GenerateHelix(Vector3 _pointA, Vector3 _pointB, float _curvature, int _iterations)
     {
         Vector3 posOne = _pointA;
         Vector3 posTwo = _pointB;
@@ -201,14 +206,45 @@ public class PathGenerator : MonoBehaviour {
     #endregion
 }
 
+#region Path Classes
+
+public class PathClass
+{
+
+}
+
+//SUBCLASSES
+
+public class SimpleCurve : PathClass
+{
+    public float curvature;
+
+    public SimpleCurve(float _curvature)
+    {
+        curvature = _curvature;
+    }
+}
+
+public class Helix : PathClass
+{
+    public float curvature;
+    public int iterations;
+
+    public Helix(float _curvature, int _iterations)
+    {
+        curvature = _curvature;
+        iterations = _iterations;
+    }
+}
+
+#endregion
+
 public enum PathType
 {
     SimpleCurve,
     Helix,
     Curl
 }
-
-
 
 public enum HotSpots
 {
@@ -217,12 +253,15 @@ public enum HotSpots
     Player_Stamina,
     Player_Mana,
     Player_Gold,
+    //
     Player_Marker_Poison,
     Player_Marker_Burn,
     Player_Marker_Ice,
     Player_Marker_Invulnerability,
+    //
     Player_Exp,
-    Player_Card_Back,
+    Player_Deck_Back,
+    //
     Player_Card_1_Top_Left_Icon,
     Player_Card_1_Top_Right_Icon,
     Player_Card_1_Top_Center_Icon,
@@ -230,7 +269,43 @@ public enum HotSpots
     Player_Card_1_Bottom_Left_Icon,
     Player_Card_1_Bottom_Right_Icon,
     Player_Card_1_Bottom_Center_Icon,
-    //per player card 2 e 3
+    //
+    Player_Card_2_Top_Left_Icon,
+    Player_Card_2_Top_Right_Icon,
+    Player_Card_2_Top_Center_Icon,
+    Player_Card_2_Center,
+    Player_Card_2_Bottom_Left_Icon,
+    Player_Card_2_Bottom_Right_Icon,
+    Player_Card_2_Bottom_Center_Icon,
+    //
+    Player_Card_3_Top_Left_Icon,
+    Player_Card_3_Top_Right_Icon,
+    Player_Card_3_Top_Center_Icon,
+    Player_Card_3_Center,
+    Player_Card_3_Bottom_Left_Icon,
+    Player_Card_3_Bottom_Right_Icon,
+    Player_Card_3_Bottom_Center_Icon,
+    //
+    Enemy_Deck_Back,
+    //
+    Enemy_1_Center,
     Enemy_1_Defense,
-    Enemy_1_Center
+    Enemy_1_Hp,
+    Enemy_1_Marker_Poison,
+    Enemy_1_Marker_Burn,
+    Enemy_1_Marker_Ice,
+    //
+    Enemy_2_Center,
+    Enemy_2_Defense,
+    Enemy_2_Hp,
+    Enemy_2_Marker_Poison,
+    Enemy_2_Marker_Burn,
+    Enemy_2_Marker_Ice,
+    //
+    Enemy_3_Center,
+    Enemy_3_Defense,
+    Enemy_3_Hp,
+    Enemy_3_Marker_Poison,
+    Enemy_3_Marker_Burn,
+    Enemy_3_Marker_Ice
 }
