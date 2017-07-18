@@ -38,6 +38,7 @@ public class Effect
     public PathType pathType;
     public float curvature;
     public int iterations;
+    public iTween.EaseType easeType;
 
     public void PlayEffect()
     {

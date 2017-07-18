@@ -60,7 +60,7 @@ public class EffectsGenerator : MonoBehaviour
 
             foreach (GameObject e in eff.effect)
             {
-                iTween.MoveTo(e, iTween.Hash("path", curve, "time", time, "easetype", iTween.EaseType.easeOutQuad, "orienttopath", true));
+                iTween.MoveTo(e, iTween.Hash("path", curve, "time", time, "easetype", eff.easeType, "orienttopath", true));
                 yield return new WaitForSeconds(0.2f);
             }        //TODO fare un for in cui vario la curvatura    
         }
@@ -74,7 +74,7 @@ public class EffectsGenerator : MonoBehaviour
 
             for (int i = 0; i < eff.effect.Length; i++)
             {
-                iTween.MoveTo(eff.effect[i], iTween.Hash("path", helix[i], "time", time, "easetype", iTween.EaseType.easeOutQuad, "orienttopath", true));
+                iTween.MoveTo(eff.effect[i], iTween.Hash("path", helix[i], "time", time, "easetype", eff.easeType, "orienttopath", true));
                 yield return new WaitForSeconds(0.2f);
             }
 
