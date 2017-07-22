@@ -42,8 +42,32 @@ public class EffectsGenerator : MonoBehaviour
             for (int i = 0; i < eff.effect.Length; i++)
             {
                 eff.effect[i].transform.position = helix[i][0];
-                iTween.MoveTo(eff.effect[i], iTween.Hash("path", helix[i], "time", time, "easetype", iTween.EaseType.easeOutQuad, "orienttopath", true, "oncomplete", "ResetPathPositions", "oncompleteparams", eff.effect));
+                iTween.MoveTo(eff.effect[i], iTween.Hash
+                    (
+                    "path", helix[i],
+                    "time", time,
+                    "easetype", iTween.EaseType.easeOutQuad,
+                    "orienttopath", true,
+                    "oncomplete", "PlaySecondEffect",
+                    "oncompletetarget", gameObject,
+                    "oncompleteparams", _effect
+                    ));
             }
+        }
+    }
+
+    public void PlaySecondEffect(GenerateEffect _eff)
+    {
+        Effect e = effectsRepo.GetEffect(_eff.effect);
+        foreach(ParticleSystem ps in e.p)
+        {
+            ps.Stop();
+        }
+        e.afterThat.transform.position = pathGen.GetHotspotPosition(_eff.toPoint);
+        ParticleSystem[] systems = e.afterThat.GetComponentsInChildren<ParticleSystem>();
+        foreach(ParticleSystem ps in systems)
+        {
+            ps.Play();
         }
     }
 

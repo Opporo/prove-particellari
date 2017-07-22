@@ -91,7 +91,7 @@ public class PathGenerator : MonoBehaviour {
     }
 #endregion
 
-    Vector3 GetHotspotPosition(HotSpots _hs)
+    public Vector3 GetHotspotPosition(HotSpots _hs)
     {
         return Array.Find(hotSpots, x => x.hotspotName == _hs).myPosition;
     }

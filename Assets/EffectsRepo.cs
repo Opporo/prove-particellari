@@ -23,6 +23,14 @@ public class EffectsRepo : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        foreach(GameObject _go in effectComponents)
+        {
+            iTween.Init(_go);
+        }
+    }
+
     public Effect GetEffect(Effects _effect)
     {
         return Array.Find(effects, x => x.effectName == _effect);
@@ -39,10 +47,14 @@ public class Effect
     public float curvature;
     public int iterations;
     public iTween.EaseType easeType;
+    public GameObject afterThat;
+
+    [HideInInspector]
+    public List<ParticleSystem> p = new List<ParticleSystem>();
 
     public void PlayEffect()
     {
-        List<ParticleSystem> p = new List<ParticleSystem>();
+        p.Clear();
         for (int i = 0; i < effect.Length; i++)
         {
             ParticleSystem[] q = effect[i].GetComponentsInChildren<ParticleSystem>();
@@ -70,5 +82,7 @@ public class Effect
 public enum Effects
 {
     PhysicalSimple,
-    PhysicalCrossed
+    PhysicalCrossed,
+    MagicalSimple,
+    MagicalCrossed
 }
