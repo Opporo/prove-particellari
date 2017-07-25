@@ -46,7 +46,7 @@ public class EffectsGenerator : MonoBehaviour
                     (
                     "path", helix[i],
                     "time", time,
-                    "easetype", iTween.EaseType.easeOutQuad,
+                    "easetype", eff.easeType,
                     "orienttopath", true,
                     "oncomplete", "PlaySecondEffect",
                     "oncompletetarget", gameObject,
