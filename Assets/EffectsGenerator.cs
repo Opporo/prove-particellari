@@ -29,7 +29,15 @@ public class EffectsGenerator : MonoBehaviour
             foreach (GameObject e in eff.effect)
             {
                 e.transform.position = curve[0];
-                iTween.MoveTo(e, iTween.Hash("path", curve, "time", time, "easetype", iTween.EaseType.easeOutQuad, "orienttopath", true));
+                iTween.MoveTo(e, iTween.Hash(
+                    "path", curve,
+                    "time", time,
+                    "easetype", eff.easeType,
+                    "orienttopath", true,
+                    "oncomplete", "PlaySecondEffect",
+                    "oncompletetarget", gameObject,
+                    "oncompleteparams", _effect
+                    ));
             }        //TODO fare un for in cui vario la curvatura    
         }
 
@@ -62,6 +70,7 @@ public class EffectsGenerator : MonoBehaviour
         foreach(ParticleSystem ps in e.p)
         {
             ps.Stop();
+            Debug.Log("Stopped " + ps.name);
         }
         e.afterThat.transform.position = pathGen.GetHotspotPosition(_eff.toPoint);
         ParticleSystem[] systems = e.afterThat.GetComponentsInChildren<ParticleSystem>();

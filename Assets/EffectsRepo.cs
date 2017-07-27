@@ -44,6 +44,7 @@ public class Effect
     public GameObject[] effect;
     public int howMany;
     public PathType pathType;
+    [Range(-50f, 50f)]
     public float curvature;
     public int iterations;
     public iTween.EaseType easeType;
@@ -64,7 +65,7 @@ public class Effect
             }
         }
         
-        Debug.Log("Found " + p.Capacity + " particle systems in " + effect);
+        //Debug.Log("Found " + p.Capacity + " particle systems in " + effect);
         if (p.Capacity > 0)
         {
             foreach (var part in p)
