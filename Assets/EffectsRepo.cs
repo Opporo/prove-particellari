@@ -51,24 +51,23 @@ public class Effect
     public GameObject afterThat;
 
     [HideInInspector]
-    public List<ParticleSystem> p = new List<ParticleSystem>();
+    public List<ParticleSystem> particleSystemsIncluded = new List<ParticleSystem>();
 
     public void PlayEffect()
     {
-        p.Clear();
+        particleSystemsIncluded.Clear();
         for (int i = 0; i < effect.Length; i++)
         {
             ParticleSystem[] q = effect[i].GetComponentsInChildren<ParticleSystem>();
             for (int j = 0; j < q.Length; j++)
             {
-                p.Add(q[j]);
+                particleSystemsIncluded.Add(q[j]);
             }
         }
         
-        //Debug.Log("Found " + p.Capacity + " particle systems in " + effect);
-        if (p.Capacity > 0)
+        if (particleSystemsIncluded.Capacity > 0)
         {
-            foreach (var part in p)
+            foreach (var part in particleSystemsIncluded)
             {
                 part.Play();
             }
@@ -82,8 +81,12 @@ public class Effect
 
 public enum Effects
 {
-    PhysicalSimple,
-    PhysicalCrossed,
-    MagicalSimple,
-    MagicalCrossed
+    PhysicalSimpleToShield,
+    PhysicalSimpleToCard,
+    PhysicalCrossedToShield,
+    PhysicalCrossedToCard,
+    MagicalSimpleToShield,
+    MagicalSimpleToCard,
+    MagicalCrossedToShield,
+    MagicalCrossedToCard
 }
