@@ -14,58 +14,68 @@ public class EffectsGenerator : MonoBehaviour
     {
         if (Input.GetKeyDown("a"))
         {
-            TestEffect(testEffect);
+            //TestEffect(testEffect);
         }
         if (Input.GetKeyDown("s"))
         {
-            StartCoroutine(PlayEffetcsCO(testMultipleEffects));
+            TestEffect(testMultipleEffects);
         }
     }
 
-    public void TestEffect(GenerateEffect _effect)
+    //public void TestEffect(GenerateEffect _effect)
+    //{
+    //    Effect eff = effectsRepo.GetEffect(_effect.effect);
+    //    Debug.Log(eff.effectName);
+    //    if (eff.pathType == PathType.SimpleCurve)
+    //    {
+    //        Vector3[] curve = pathGen.GeneratePath(_effect.fromPoint, _effect.toPoint, new SimpleCurve(eff.curvature))[0];
+    //        ParticleSystem.MainModule mainModule = eff.particleSystemsIncluded[0].main;
+    //        mainModule.startLifetime = _effect.time;
+    //        Debug.Log(eff.particleSystemsIncluded[0].name);
+    //        eff.PlayEffect();
+    //        foreach (GameObject e in eff.effectComponent)
+    //        {
+    //            e.transform.position = curve[0];
+    //            iTween.MoveTo(e, iTween.Hash(
+    //                "path", curve,
+    //                "time", _effect.time,
+    //                "easetype", eff.easeType,
+    //                "orienttopath", true,
+    //                "oncomplete", "PlaySecondEffect",
+    //                "oncompletetarget", gameObject,
+    //                "oncompleteparams", _effect
+    //                ));
+    //        }        //TODO fare un for in cui vario la curvatura    
+    //    }
+
+    //    if (eff.pathType == PathType.Helix)
+    //    {
+    //        List<Vector3[]> helix =
+    //            pathGen.GeneratePath(_effect.fromPoint, _effect.toPoint, new Helix(eff.curvature, eff.iterations));
+    //        ParticleSystem.MainModule mainModule = eff.particleSystemsIncluded[0].main;
+    //        mainModule.startLifetime = _effect.time;
+    //        Debug.Log(eff.particleSystemsIncluded[0].name);
+    //        eff.PlayEffect();
+    //        for (int i = 0; i < eff.effectComponent.Length; i++)
+    //        {
+    //            eff.effectComponent[i].transform.position = helix[i][0];
+    //            iTween.MoveTo(eff.effectComponent[i], iTween.Hash
+    //                (
+    //                "path", helix[i],
+    //                "time", _effect.time,
+    //                "easetype", eff.easeType,
+    //                "orienttopath", true,
+    //                "oncomplete", "PlaySecondEffect",
+    //                "oncompletetarget", gameObject,
+    //                "oncompleteparams", _effect
+    //                ));
+    //        }
+    //    }
+    //}
+
+        public void TestEffect(GenerateEffect[] _eff)
     {
-        Effect eff = effectsRepo.GetEffect(_effect.effect);
-        Debug.Log(eff.effectName);
-        if (eff.pathType == PathType.SimpleCurve)
-        {
-            Vector3[] curve = pathGen.GeneratePath(_effect.fromPoint, _effect.toPoint, new SimpleCurve(eff.curvature))[0];
-            eff.PlayEffect();
-            foreach (GameObject e in eff.effect)
-            {
-                e.transform.position = curve[0];
-                iTween.MoveTo(e, iTween.Hash(
-                    "path", curve,
-                    "time", _effect.time,
-                    "easetype", eff.easeType,
-                    "orienttopath", true,
-                    "oncomplete", "PlaySecondEffect",
-                    "oncompletetarget", gameObject,
-                    "oncompleteparams", _effect
-                    ));
-            }        //TODO fare un for in cui vario la curvatura    
-        }
-
-        if (eff.pathType == PathType.Helix)
-        {
-            List<Vector3[]> helix =
-                pathGen.GeneratePath(_effect.fromPoint, _effect.toPoint, new Helix(eff.curvature, eff.iterations));
-
-            eff.PlayEffect();
-            for (int i = 0; i < eff.effect.Length; i++)
-            {
-                eff.effect[i].transform.position = helix[i][0];
-                iTween.MoveTo(eff.effect[i], iTween.Hash
-                    (
-                    "path", helix[i],
-                    "time", _effect.time,
-                    "easetype", eff.easeType,
-                    "orienttopath", true,
-                    "oncomplete", "PlaySecondEffect",
-                    "oncompletetarget", gameObject,
-                    "oncompleteparams", _effect
-                    ));
-            }
-        }
+        StartCoroutine(PlayEffetcsCO(_eff));
     }
 
     public void PlaySecondEffect(GenerateEffect _eff)
@@ -95,7 +105,7 @@ public class EffectsGenerator : MonoBehaviour
                 float tempCurvature = eff.curvature;
                 Vector3[] curve = pathGen.GeneratePath(generateEffect.fromPoint, generateEffect.toPoint, new SimpleCurve(eff.curvature))[0];
                 
-                foreach (GameObject e in eff.effect)
+                foreach (GameObject e in eff.effectComponent)
                 {
                     //move along path
                     e.transform.position = curve[0];
@@ -122,10 +132,10 @@ public class EffectsGenerator : MonoBehaviour
                 List<Vector3[]> helix = pathGen.GeneratePath(generateEffect.fromPoint, generateEffect.toPoint, new Helix(eff.curvature, eff.iterations));
 
                 //eff.PlayEffect();
-                for (int i = 0; i < eff.effect.Length; i++)
+                for (int i = 0; i < eff.effectComponent.Length; i++)
                 {
-                    eff.effect[i].transform.position = helix[i][0];
-                    iTween.MoveTo(eff.effect[i], iTween.Hash
+                    eff.effectComponent[i].transform.position = helix[i][0];
+                    iTween.MoveTo(eff.effectComponent[i], iTween.Hash
                         (
                         "path", helix[i],
                         "time", generateEffect.time,

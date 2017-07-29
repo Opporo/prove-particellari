@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 54d1cb636aada944c860ad5dc1cbfaf3
-timeCreated: 1501151928
+guid: 2729a93a2d3422b4eb0067777afbc3a9
+timeCreated: 1501276405
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pPlane1
-    400000: //RootNode
-    400002: pPlane1
-    2300000: pPlane1
-    3300000: pPlane1
-    4300000: pPlane1
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2300000: default
+    3300000: default
+    4300000: default
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
@@ -62,7 +62,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

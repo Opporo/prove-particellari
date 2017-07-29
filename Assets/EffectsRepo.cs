@@ -21,6 +21,11 @@ public class EffectsRepo : MonoBehaviour
         {
             effectComponents[i] = myTransform.GetChild(i).gameObject;
         }
+
+        foreach (Effect eff in effects)
+        {
+            eff.effectNameString = eff.effectName.ToString();
+        }
     }
 
     void Start()
@@ -40,9 +45,11 @@ public class EffectsRepo : MonoBehaviour
 [Serializable]
 public class Effect
 {
+    
+    [HideInInspector]
+    public string effectNameString;
     public Effects effectName;
-    public GameObject[] effect;
-    public int howMany;
+    public GameObject[] effectComponent;
     public PathType pathType;
     [Range(-50f, 50f)]
     public float curvature;
@@ -56,9 +63,9 @@ public class Effect
     public void PlayEffect()
     {
         particleSystemsIncluded.Clear();
-        for (int i = 0; i < effect.Length; i++)
+        for (int i = 0; i < effectComponent.Length; i++)
         {
-            ParticleSystem[] q = effect[i].GetComponentsInChildren<ParticleSystem>();
+            ParticleSystem[] q = effectComponent[i].GetComponentsInChildren<ParticleSystem>();
             for (int j = 0; j < q.Length; j++)
             {
                 particleSystemsIncluded.Add(q[j]);
@@ -74,7 +81,7 @@ public class Effect
         }
         else
         {
-            Debug.Log("can't play particle effect because object " + effect + " doesn't contain any effect!");
+            Debug.Log("can't play particle effect because object " + effectComponent + " doesn't contain any effect!");
         }
     }
 }
