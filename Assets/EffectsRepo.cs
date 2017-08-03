@@ -36,7 +36,7 @@ public class EffectsRepo : MonoBehaviour
         }
     }
 
-    public Effect GetEffect(Effects _effect)
+    public Effect GetEffect(IreneEffects _effect)
     {
         return Array.Find(effects, x => x.effectName == _effect);
     }
@@ -48,7 +48,7 @@ public class Effect
     
     [HideInInspector]
     public string effectNameString;
-    public Effects effectName;
+    public IreneEffects effectName;
     public GameObject[] effectComponent;
     public PathType pathType;
     [Range(-50f, 50f)]
@@ -86,7 +86,7 @@ public class Effect
     }
 }
 
-public enum Effects
+public enum IreneEffects
 {
     PhysicalSimpleToShield,
     PhysicalSimpleToCard,
